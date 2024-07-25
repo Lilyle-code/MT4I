@@ -1,0 +1,723 @@
+2022-06-29 01:44:27：
+Program Type：2
+Program Path：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/sort20.py
+Testing Metamorphic Relation：MR21
+Testing Parameter（1-5）：1
+Test Case Path：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20
+Number of Categories：10
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/0	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/0	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/0
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/0\\60.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/0\\75.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/0\\80.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/0\\85.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/0\\99.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/1	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/1	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/1
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/1\\160.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/1\\177.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/1\\182.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/1\\198.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/2	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/2	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/2
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/2\\263.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/2\\277.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/2\\293.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/3	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/3	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/3
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/3\\360.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/3\\373.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/3\\388.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/3\\399.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/4	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/4
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4\\460.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4\\465.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4\\471.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4\\476.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4\\481.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4\\486.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4\\491.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/4\\496.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/5	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/5	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/5
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/5\\560.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/5\\584.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/6	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/6	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/6
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/6\\660.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/6\\689.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/7	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/7	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/7
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/7\\960.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/7\\989.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/8	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/8	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/8
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/8\\762.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/8\\780.jpg']
+[0m
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/9	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: inf                           
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/9	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/testMR20/1/9
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/9\\865.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/9\\877.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/9\\886.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR20/test/9\\895.jpg']
+[0m
+Verifying Two Output：Test Case 1 PASSED
+Verifying Two Output：Test Case 2 PASSED
+Verifying Two Output：Test Case 3 PASSED
+Verifying Two Output：Test Case 4 PASSED
+Verifying Two Output：Test Case 5 PASSED
+Verifying Two Output：Test Case 6 PASSED
+Verifying Two Output：Test Case 7 PASSED
+Verifying Two Output：Test Case 8 FAILED！！！
+Verifying Two Output：Test Case 9 PASSED
+Verifying Two Output：Test Case 10 PASSED
+Verifying Two Output：Test Case 11 PASSED
+Verifying Two Output：Test Case 12 FAILED！！！
+Verifying Two Output：Test Case 13 PASSED
+Verifying Two Output：Test Case 14 PASSED
+Verifying Two Output：Test Case 15 PASSED
+Verifying Two Output：Test Case 16 PASSED
+Verifying Two Output：Test Case 17 PASSED
+Verifying Two Output：Test Case 18 PASSED
+Verifying Two Output：Test Case 19 PASSED
+Verifying Two Output：Test Case 20 PASSED
+Verifying Two Output：Test Case 21 PASSED
+Verifying Two Output：Test Case 22 FAILED！！！
+Verifying Two Output：Test Case 23 PASSED
+Verifying Two Output：Test Case 24 PASSED
+Verifying Two Output：Test Case 25 PASSED
+Verifying Two Output：Test Case 26 PASSED
+Verifying Two Output：Test Case 27 PASSED
+Verifying Two Output：Test Case 28 FAILED！！！
+Verifying Two Output：Test Case 29 PASSED
+Verifying Two Output：Test Case 30 PASSED
+Verifying Two Output：Test Case 31 FAILED！！！
+Verifying Two Output：Test Case 32 PASSED
+Verifying Two Output：Test Case 33 PASSED
+Verifying Two Output：Test Case 34 PASSED
+Verifying Two Output：Test Case 35 FAILED！！！
+Verifying Two Output：Test Case 36 PASSED
+Verifying Two Output：Test Case 37 PASSED
+Verifying Two Output：Test Case 38 PASSED
+Verifying Two Output：Test Case 39 PASSED
+Verifying Two Output：Test Case 40 PASSED
+Verifying Two Output：Test Case 41 PASSED
+Verifying Two Output：Test Case 42 PASSED
+Verifying Two Output：Test Case 43 PASSED
+Verifying Two Output：Test Case 44 PASSED
+Verifying Two Output：Test Case 45 PASSED
+Verifying Two Output：Test Case 46 PASSED
+Verifying Two Output：Test Case 47 PASSED
+Verifying Two Output：Test Case 48 PASSED
+Verifying Two Output：Test Case 49 PASSED
+Verifying Two Output：Test Case 50 FAILED！！！
+Verifying Two Output：Test Case 51 PASSED
+Verifying Two Output：Test Case 52 PASSED
+Verifying Two Output：Test Case 53 PASSED
+Verifying Two Output：Test Case 54 PASSED
+Verifying Two Output：Test Case 55 PASSED
+Verifying Two Output：Test Case 56 FAILED！！！
+Verifying Two Output：Test Case 57 PASSED
+Verifying Two Output：Test Case 58 FAILED！！！
+Verifying Two Output：Test Case 59 PASSED
+Verifying Two Output：Test Case 60 FAILED！！！
+Verifying Two Output：Test Case 61 PASSED
+Verifying Two Output：Test Case 62 PASSED
+Verifying Two Output：Test Case 63 FAILED！！！
+Verifying Two Output：Test Case 64 FAILED！！！
+Verifying Two Output：Test Case 65 FAILED！！！
+Verifying Two Output：Test Case 66 PASSED
+Verifying Two Output：Test Case 67 PASSED
+Verifying Two Output：Test Case 68 PASSED
+Verifying Two Output：Test Case 69 PASSED
+Verifying Two Output：Test Case 70 PASSED
+Verifying Two Output：Test Case 71 PASSED
+Verifying Two Output：Test Case 72 PASSED
+Verifying Two Output：Test Case 73 PASSED
+Verifying Two Output：Test Case 74 PASSED
+Verifying Two Output：Test Case 75 PASSED
+Verifying Two Output：Test Case 76 PASSED
+Verifying Two Output：Test Case 77 PASSED
+Verifying Two Output：Test Case 78 PASSED
+Verifying Two Output：Test Case 79 PASSED
+Verifying Two Output：Test Case 80 PASSED
+Verifying Two Output：Test Case 81 PASSED
+Verifying Two Output：Test Case 82 PASSED
+Verifying Two Output：Test Case 83 PASSED
+Verifying Two Output：Test Case 84 PASSED
+Verifying Two Output：Test Case 85 PASSED
+Verifying Two Output：Test Case 86 PASSED
+Verifying Two Output：Test Case 87 PASSED
+Verifying Two Output：Test Case 88 PASSED
+Verifying Two Output：Test Case 89 PASSED
+Verifying Two Output：Test Case 90 PASSED
+Verifying Two Output：Test Case 91 PASSED
+Verifying Two Output：Test Case 92 PASSED
+Verifying Two Output：Test Case 93 PASSED
+Verifying Two Output：Test Case 94 PASSED
+Verifying Two Output：Test Case 95 PASSED
+Verifying Two Output：Test Case 96 PASSED
+Verifying Two Output：Test Case 97 PASSED
+Verifying Two Output：Test Case 98 PASSED
+Verifying Two Output：Test Case 99 PASSED
+Verifying Two Output：Test Case 100 PASSED
+Verifying Two Output：Test Case 101 PASSED
+Verifying Two Output：Test Case 102 PASSED
+Verifying Two Output：Test Case 103 PASSED
+Verifying Two Output：Test Case 104 PASSED
+Verifying Two Output：Test Case 105 PASSED
+Verifying Two Output：Test Case 106 FAILED！！！
+Verifying Two Output：Test Case 107 PASSED
+Verifying Two Output：Test Case 108 PASSED
+Verifying Two Output：Test Case 109 PASSED
+Verifying Two Output：Test Case 110 PASSED
+Verifying Two Output：Test Case 111 PASSED
+Verifying Two Output：Test Case 112 PASSED
+Verifying Two Output：Test Case 113 PASSED
+Verifying Two Output：Test Case 114 FAILED！！！
+Verifying Two Output：Test Case 115 PASSED
+Verifying Two Output：Test Case 116 PASSED
+Verifying Two Output：Test Case 117 FAILED！！！
+Verifying Two Output：Test Case 118 FAILED！！！
+Verifying Two Output：Test Case 119 PASSED
+Verifying Two Output：Test Case 120 PASSED
+Verifying Two Output：Test Case 121 FAILED！！！
+Verifying Two Output：Test Case 122 FAILED！！！
+Verifying Two Output：Test Case 123 PASSED
+Verifying Two Output：Test Case 124 FAILED！！！
+Verifying Two Output：Test Case 125 FAILED！！！
+Verifying Two Output：Test Case 126 FAILED！！！
+Verifying Two Output：Test Case 127 PASSED
+Verifying Two Output：Test Case 128 PASSED
+Verifying Two Output：Test Case 129 PASSED
+Verifying Two Output：Test Case 130 PASSED
+Verifying Two Output：Test Case 131 PASSED
+Verifying Two Output：Test Case 132 PASSED
+Verifying Two Output：Test Case 133 PASSED
+Verifying Two Output：Test Case 134 FAILED！！！
+Verifying Two Output：Test Case 135 PASSED
+Verifying Two Output：Test Case 136 PASSED
+Verifying Two Output：Test Case 137 PASSED
+Verifying Two Output：Test Case 138 PASSED
+Verifying Two Output：Test Case 139 PASSED
+Verifying Two Output：Test Case 140 PASSED
+Verifying Two Output：Test Case 141 FAILED！！！
+Verifying Two Output：Test Case 142 PASSED
+Verifying Two Output：Test Case 143 PASSED
+Verifying Two Output：Test Case 144 PASSED
+Verifying Two Output：Test Case 145 PASSED
+Verifying Two Output：Test Case 146 PASSED
+Verifying Two Output：Test Case 147 PASSED
+Verifying Two Output：Test Case 148 PASSED
+Verifying Two Output：Test Case 149 PASSED
+Verifying Two Output：Test Case 150 PASSED
+Verifying Two Output：Test Case 151 PASSED
+Verifying Two Output：Test Case 152 PASSED
+Verifying Two Output：Test Case 153 PASSED
+Verifying Two Output：Test Case 154 PASSED
+
+Test Result
+Number of Test Case：154
+Error Number of Test Case：24
+Error Rate：0.155844

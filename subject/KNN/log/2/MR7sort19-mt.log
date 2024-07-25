@@ -1,0 +1,681 @@
+2022-06-29 00:38:33：
+Program Type：2
+Program Path：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/sort19.py
+Testing Metamorphic Relation：MR8
+Testing Parameter（1-5）：1
+Test Case Path：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7
+Number of Categories：10
+
+Reading Test Case 1：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/63.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/63.jpg
+
+Reading Test Case 2：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/65.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/65.jpg
+
+Reading Test Case 3：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/73.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/73.jpg
+
+Reading Test Case 4：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/74.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/74.jpg
+
+Reading Test Case 5：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/79.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/79.jpg
+
+Reading Test Case 6：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/87.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/87.jpg
+
+Reading Test Case 7：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/88.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/88.jpg
+
+Reading Test Case 8：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/92.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/92.jpg
+
+Reading Test Case 9：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/0/98.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/0/98.jpg
+
+Reading Test Case 10：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/160.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/160.jpg
+
+Reading Test Case 11：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/161.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/161.jpg
+
+Reading Test Case 12：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/163.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/163.jpg
+
+Reading Test Case 13：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/166.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/166.jpg
+
+Reading Test Case 14：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/173.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/173.jpg
+
+Reading Test Case 15：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/176.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/176.jpg
+
+Reading Test Case 16：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/179.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/179.jpg
+
+Reading Test Case 17：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/180.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/180.jpg
+
+Reading Test Case 18：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/182.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/182.jpg
+
+Reading Test Case 19：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/184.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/184.jpg
+
+Reading Test Case 20：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/186.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/186.jpg
+
+Reading Test Case 21：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/189.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/189.jpg
+
+Reading Test Case 22：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/191.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/191.jpg
+
+Reading Test Case 23：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/192.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/192.jpg
+
+Reading Test Case 24：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/194.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/194.jpg
+
+Reading Test Case 25：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/198.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/198.jpg
+
+Reading Test Case 26：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/1/199.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/1/199.jpg
+
+Reading Test Case 27：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/260.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/260.jpg
+
+Reading Test Case 28：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/270.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/270.jpg
+
+Reading Test Case 29：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/273.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/273.jpg
+
+Reading Test Case 30：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/274.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/274.jpg
+
+Reading Test Case 31：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/282.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/282.jpg
+
+Reading Test Case 32：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/284.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/284.jpg
+
+Reading Test Case 33：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/286.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/286.jpg
+
+Reading Test Case 34：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/289.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/289.jpg
+
+Reading Test Case 35：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/294.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/294.jpg
+
+Reading Test Case 36：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/2/295.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/2/295.jpg
+
+Reading Test Case 37：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/360.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/360.jpg
+
+Reading Test Case 38：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/364.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/364.jpg
+
+Reading Test Case 39：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/369.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/369.jpg
+
+Reading Test Case 40：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/371.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/371.jpg
+
+Reading Test Case 41：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/373.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/373.jpg
+
+Reading Test Case 42：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/377.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/377.jpg
+
+Reading Test Case 43：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/380.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/380.jpg
+
+Reading Test Case 44：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/381.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/381.jpg
+
+Reading Test Case 45：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/384.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/384.jpg
+
+Reading Test Case 46：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/386.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/386.jpg
+
+Reading Test Case 47：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/393.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/393.jpg
+
+Reading Test Case 48：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/394.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/394.jpg
+
+Reading Test Case 49：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/3/399.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/3/399.jpg
+
+Reading Test Case 50：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/460.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/460.jpg
+
+Reading Test Case 51：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/461.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/461.jpg
+
+Reading Test Case 52：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/462.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/462.jpg
+
+Reading Test Case 53：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/463.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/463.jpg
+
+Reading Test Case 54：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/464.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/464.jpg
+
+Reading Test Case 55：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/465.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/465.jpg
+
+Reading Test Case 56：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/466.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/466.jpg
+
+Reading Test Case 57：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/467.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/467.jpg
+
+Reading Test Case 58：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/468.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/468.jpg
+
+Reading Test Case 59：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/469.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/469.jpg
+
+Reading Test Case 60：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/470.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/470.jpg
+
+Reading Test Case 61：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/471.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/471.jpg
+
+Reading Test Case 62：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/472.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/472.jpg
+
+Reading Test Case 63：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/473.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/473.jpg
+
+Reading Test Case 64：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/474.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/474.jpg
+
+Reading Test Case 65：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/475.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/475.jpg
+
+Reading Test Case 66：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/476.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/476.jpg
+
+Reading Test Case 67：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/477.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/477.jpg
+
+Reading Test Case 68：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/478.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/478.jpg
+
+Reading Test Case 69：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/479.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/479.jpg
+
+Reading Test Case 70：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/480.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/480.jpg
+
+Reading Test Case 71：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/481.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/481.jpg
+
+Reading Test Case 72：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/482.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/482.jpg
+
+Reading Test Case 73：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/483.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/483.jpg
+
+Reading Test Case 74：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/484.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/484.jpg
+
+Reading Test Case 75：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/485.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/485.jpg
+
+Reading Test Case 76：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/486.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/486.jpg
+
+Reading Test Case 77：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/487.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/487.jpg
+
+Reading Test Case 78：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/488.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/488.jpg
+
+Reading Test Case 79：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/489.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/489.jpg
+
+Reading Test Case 80：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/490.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/490.jpg
+
+Reading Test Case 81：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/491.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/491.jpg
+
+Reading Test Case 82：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/492.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/492.jpg
+
+Reading Test Case 83：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/493.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/493.jpg
+
+Reading Test Case 84：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/494.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/494.jpg
+
+Reading Test Case 85：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/495.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/495.jpg
+
+Reading Test Case 86：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/496.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/496.jpg
+
+Reading Test Case 87：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/497.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/497.jpg
+
+Reading Test Case 88：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/498.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/498.jpg
+
+Reading Test Case 89：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/4/499.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/4/499.jpg
+
+Reading Test Case 90：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/562.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/562.jpg
+
+Reading Test Case 91：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/565.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/565.jpg
+
+Reading Test Case 92：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/573.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/573.jpg
+
+Reading Test Case 93：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/579.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/579.jpg
+
+Reading Test Case 94：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/584.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/584.jpg
+
+Reading Test Case 95：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/585.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/585.jpg
+
+Reading Test Case 96：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/586.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/586.jpg
+
+Reading Test Case 97：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/590.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/590.jpg
+
+Reading Test Case 98：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/593.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/593.jpg
+
+Reading Test Case 99：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/596.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/596.jpg
+
+Reading Test Case 100：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/5/599.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/5/599.jpg
+
+Reading Test Case 101：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/660.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/660.jpg
+
+Reading Test Case 102：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/661.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/661.jpg
+
+Reading Test Case 103：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/662.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/662.jpg
+
+Reading Test Case 104：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/663.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/663.jpg
+
+Reading Test Case 105：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/664.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/664.jpg
+
+Reading Test Case 106：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/665.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/665.jpg
+
+Reading Test Case 107：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/675.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/675.jpg
+
+Reading Test Case 108：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/677.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/677.jpg
+
+Reading Test Case 109：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/678.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/678.jpg
+
+Reading Test Case 110：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/679.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/679.jpg
+
+Reading Test Case 111：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/681.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/681.jpg
+
+Reading Test Case 112：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/682.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/682.jpg
+
+Reading Test Case 113：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/683.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/683.jpg
+
+Reading Test Case 114：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/684.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/684.jpg
+
+Reading Test Case 115：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/688.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/688.jpg
+
+Reading Test Case 116：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/689.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/689.jpg
+
+Reading Test Case 117：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/691.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/691.jpg
+
+Reading Test Case 118：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/694.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/694.jpg
+
+Reading Test Case 119：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/695.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/695.jpg
+
+Reading Test Case 120：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/696.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/696.jpg
+
+Reading Test Case 121：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/697.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/697.jpg
+
+Reading Test Case 122：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/6/699.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/6/699.jpg
+
+Reading Test Case 123：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/960.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/960.jpg
+
+Reading Test Case 124：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/961.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/961.jpg
+
+Reading Test Case 125：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/962.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/962.jpg
+
+Reading Test Case 126：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/966.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/966.jpg
+
+Reading Test Case 127：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/967.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/967.jpg
+
+Reading Test Case 128：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/968.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/968.jpg
+
+Reading Test Case 129：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/969.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/969.jpg
+
+Reading Test Case 130：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/972.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/972.jpg
+
+Reading Test Case 131：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/973.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/973.jpg
+
+Reading Test Case 132：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/974.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/974.jpg
+
+Reading Test Case 133：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/976.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/976.jpg
+
+Reading Test Case 134：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/977.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/977.jpg
+
+Reading Test Case 135：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/979.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/979.jpg
+
+Reading Test Case 136：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/980.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/980.jpg
+
+Reading Test Case 137：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/981.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/981.jpg
+
+Reading Test Case 138：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/984.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/984.jpg
+
+Reading Test Case 139：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/985.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/985.jpg
+
+Reading Test Case 140：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/986.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/986.jpg
+
+Reading Test Case 141：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/988.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/988.jpg
+
+Reading Test Case 142：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/989.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/989.jpg
+
+Reading Test Case 143：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/990.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/990.jpg
+
+Reading Test Case 144：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/991.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/991.jpg
+
+Reading Test Case 145：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/992.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/992.jpg
+
+Reading Test Case 146：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/993.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/993.jpg
+
+Reading Test Case 147：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/995.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/995.jpg
+
+Reading Test Case 148：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/7/997.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/7/997.jpg
+
+Reading Test Case 149：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/8/763.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/8/763.jpg
+
+Reading Test Case 150：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/8/771.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/8/771.jpg
+
+Reading Test Case 151：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/8/779.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/8/779.jpg
+
+Reading Test Case 152：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/8/784.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/8/784.jpg
+
+Reading Test Case 153：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/8/792.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/8/792.jpg
+
+Reading Test Case 154：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/8/798.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/8/798.jpg
+
+Reading Test Case 155：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/863.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/863.jpg
+
+Reading Test Case 156：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/866.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/866.jpg
+
+Reading Test Case 157：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/867.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/867.jpg
+
+Reading Test Case 158：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/869.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/869.jpg
+
+Reading Test Case 159：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/870.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/870.jpg
+
+Reading Test Case 160：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/871.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/871.jpg
+
+Reading Test Case 161：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/876.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/876.jpg
+
+Reading Test Case 162：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/880.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/880.jpg
+
+Reading Test Case 163：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/884.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/884.jpg
+
+Reading Test Case 164：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/888.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/888.jpg
+
+Reading Test Case 165：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/894.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/894.jpg
+
+Reading Test Case 166：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/896.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/896.jpg
+
+Reading Test Case 167：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/test/9/897.jpg
+Generating Follow-Up Test Case：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000_MR7/testMR7/1/9/897.jpg
+
+Verifying Two Output：Test Case 1 FAILED！！！
+Verifying Two Output：Test Case 2 FAILED！！！
+Verifying Two Output：Test Case 3 PASSED
+Verifying Two Output：Test Case 4 FAILED！！！
+Verifying Two Output：Test Case 5 PASSED
+Verifying Two Output：Test Case 6 FAILED！！！
+Verifying Two Output：Test Case 7 FAILED！！！
+Verifying Two Output：Test Case 8 PASSED
+Verifying Two Output：Test Case 9 PASSED
+Verifying Two Output：Test Case 10 FAILED！！！
+Verifying Two Output：Test Case 11 PASSED
+Verifying Two Output：Test Case 12 FAILED！！！
+Verifying Two Output：Test Case 13 FAILED！！！
+Verifying Two Output：Test Case 14 PASSED
+Verifying Two Output：Test Case 15 FAILED！！！
+Verifying Two Output：Test Case 16 FAILED！！！
+Verifying Two Output：Test Case 17 PASSED
+Verifying Two Output：Test Case 18 FAILED！！！
+Verifying Two Output：Test Case 19 PASSED
+Verifying Two Output：Test Case 20 PASSED
+Verifying Two Output：Test Case 21 FAILED！！！
+Verifying Two Output：Test Case 22 FAILED！！！
+Verifying Two Output：Test Case 23 PASSED
+Verifying Two Output：Test Case 24 FAILED！！！
+Verifying Two Output：Test Case 25 FAILED！！！
+Verifying Two Output：Test Case 26 PASSED
+Verifying Two Output：Test Case 27 FAILED！！！
+Verifying Two Output：Test Case 28 PASSED
+Verifying Two Output：Test Case 29 PASSED
+Verifying Two Output：Test Case 30 PASSED
+Verifying Two Output：Test Case 31 FAILED！！！
+Verifying Two Output：Test Case 32 FAILED！！！
+Verifying Two Output：Test Case 33 PASSED
+Verifying Two Output：Test Case 34 PASSED
+Verifying Two Output：Test Case 35 FAILED！！！
+Verifying Two Output：Test Case 36 PASSED
+Verifying Two Output：Test Case 37 PASSED
+Verifying Two Output：Test Case 38 FAILED！！！
+Verifying Two Output：Test Case 39 FAILED！！！
+Verifying Two Output：Test Case 40 FAILED！！！
+Verifying Two Output：Test Case 41 PASSED
+Verifying Two Output：Test Case 42 FAILED！！！
+Verifying Two Output：Test Case 43 PASSED
+Verifying Two Output：Test Case 44 PASSED
+Verifying Two Output：Test Case 45 FAILED！！！
+Verifying Two Output：Test Case 46 PASSED
+Verifying Two Output：Test Case 47 FAILED！！！
+Verifying Two Output：Test Case 48 FAILED！！！
+Verifying Two Output：Test Case 49 FAILED！！！
+Verifying Two Output：Test Case 50 PASSED
+Verifying Two Output：Test Case 51 PASSED
+Verifying Two Output：Test Case 52 PASSED
+Verifying Two Output：Test Case 53 PASSED
+Verifying Two Output：Test Case 54 PASSED
+Verifying Two Output：Test Case 55 PASSED
+Verifying Two Output：Test Case 56 PASSED
+Verifying Two Output：Test Case 57 PASSED
+Verifying Two Output：Test Case 58 PASSED
+Verifying Two Output：Test Case 59 PASSED
+Verifying Two Output：Test Case 60 PASSED
+Verifying Two Output：Test Case 61 PASSED
+Verifying Two Output：Test Case 62 PASSED
+Verifying Two Output：Test Case 63 PASSED
+Verifying Two Output：Test Case 64 PASSED
+Verifying Two Output：Test Case 65 PASSED
+Verifying Two Output：Test Case 66 PASSED
+Verifying Two Output：Test Case 67 PASSED
+Verifying Two Output：Test Case 68 PASSED
+Verifying Two Output：Test Case 69 PASSED
+Verifying Two Output：Test Case 70 PASSED
+Verifying Two Output：Test Case 71 PASSED
+Verifying Two Output：Test Case 72 PASSED
+Verifying Two Output：Test Case 73 PASSED
+Verifying Two Output：Test Case 74 PASSED
+Verifying Two Output：Test Case 75 PASSED
+Verifying Two Output：Test Case 76 PASSED
+Verifying Two Output：Test Case 77 PASSED
+Verifying Two Output：Test Case 78 PASSED
+Verifying Two Output：Test Case 79 PASSED
+Verifying Two Output：Test Case 80 PASSED
+Verifying Two Output：Test Case 81 PASSED
+Verifying Two Output：Test Case 82 PASSED
+Verifying Two Output：Test Case 83 PASSED
+Verifying Two Output：Test Case 84 PASSED
+Verifying Two Output：Test Case 85 PASSED
+Verifying Two Output：Test Case 86 PASSED
+Verifying Two Output：Test Case 87 PASSED
+Verifying Two Output：Test Case 88 PASSED
+Verifying Two Output：Test Case 89 PASSED
+Verifying Two Output：Test Case 90 FAILED！！！
+Verifying Two Output：Test Case 91 PASSED
+Verifying Two Output：Test Case 92 FAILED！！！
+Verifying Two Output：Test Case 93 PASSED
+Verifying Two Output：Test Case 94 PASSED
+Verifying Two Output：Test Case 95 PASSED
+Verifying Two Output：Test Case 96 PASSED
+Verifying Two Output：Test Case 97 PASSED
+Verifying Two Output：Test Case 98 FAILED！！！
+Verifying Two Output：Test Case 99 FAILED！！！
+Verifying Two Output：Test Case 100 PASSED
+Verifying Two Output：Test Case 101 PASSED
+Verifying Two Output：Test Case 102 PASSED
+Verifying Two Output：Test Case 103 PASSED
+Verifying Two Output：Test Case 104 PASSED
+Verifying Two Output：Test Case 105 PASSED
+Verifying Two Output：Test Case 106 PASSED
+Verifying Two Output：Test Case 107 PASSED
+Verifying Two Output：Test Case 108 PASSED
+Verifying Two Output：Test Case 109 PASSED
+Verifying Two Output：Test Case 110 PASSED
+Verifying Two Output：Test Case 111 PASSED
+Verifying Two Output：Test Case 112 PASSED
+Verifying Two Output：Test Case 113 FAILED！！！
+Verifying Two Output：Test Case 114 PASSED
+Verifying Two Output：Test Case 115 PASSED
+Verifying Two Output：Test Case 116 FAILED！！！
+Verifying Two Output：Test Case 117 PASSED
+Verifying Two Output：Test Case 118 PASSED
+Verifying Two Output：Test Case 119 FAILED！！！
+Verifying Two Output：Test Case 120 PASSED
+Verifying Two Output：Test Case 121 FAILED！！！
+Verifying Two Output：Test Case 122 PASSED
+Verifying Two Output：Test Case 123 FAILED！！！
+Verifying Two Output：Test Case 124 PASSED
+Verifying Two Output：Test Case 125 FAILED！！！
+Verifying Two Output：Test Case 126 FAILED！！！
+Verifying Two Output：Test Case 127 FAILED！！！
+Verifying Two Output：Test Case 128 FAILED！！！
+Verifying Two Output：Test Case 129 FAILED！！！
+Verifying Two Output：Test Case 130 FAILED！！！
+Verifying Two Output：Test Case 131 FAILED！！！
+Verifying Two Output：Test Case 132 FAILED！！！
+Verifying Two Output：Test Case 133 FAILED！！！
+Verifying Two Output：Test Case 134 FAILED！！！
+Verifying Two Output：Test Case 135 FAILED！！！
+Verifying Two Output：Test Case 136 FAILED！！！
+Verifying Two Output：Test Case 137 FAILED！！！
+Verifying Two Output：Test Case 138 FAILED！！！
+Verifying Two Output：Test Case 139 FAILED！！！
+Verifying Two Output：Test Case 140 FAILED！！！
+Verifying Two Output：Test Case 141 FAILED！！！
+Verifying Two Output：Test Case 142 FAILED！！！
+Verifying Two Output：Test Case 143 FAILED！！！
+Verifying Two Output：Test Case 144 FAILED！！！
+Verifying Two Output：Test Case 145 FAILED！！！
+Verifying Two Output：Test Case 146 FAILED！！！
+Verifying Two Output：Test Case 147 PASSED
+Verifying Two Output：Test Case 148 PASSED
+Verifying Two Output：Test Case 149 FAILED！！！
+Verifying Two Output：Test Case 150 PASSED
+Verifying Two Output：Test Case 151 FAILED！！！
+Verifying Two Output：Test Case 152 FAILED！！！
+Verifying Two Output：Test Case 153 FAILED！！！
+Verifying Two Output：Test Case 154 FAILED！！！
+Verifying Two Output：Test Case 155 FAILED！！！
+Verifying Two Output：Test Case 156 FAILED！！！
+Verifying Two Output：Test Case 157 PASSED
+Verifying Two Output：Test Case 158 FAILED！！！
+Verifying Two Output：Test Case 159 FAILED！！！
+Verifying Two Output：Test Case 160 FAILED！！！
+Verifying Two Output：Test Case 161 FAILED！！！
+Verifying Two Output：Test Case 162 FAILED！！！
+Verifying Two Output：Test Case 163 PASSED
+Verifying Two Output：Test Case 164 PASSED
+Verifying Two Output：Test Case 165 PASSED
+Verifying Two Output：Test Case 166 FAILED！！！
+Verifying Two Output：Test Case 167 PASSED
+
+Test Result
+Number of Test Case：167
+Error Number of Test Case：71
+Error Rate：0.42515

@@ -1,0 +1,1013 @@
+2022-05-07 13:14:50：
+Program Type：2
+Program Path：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/sort.py
+Testing Metamorphic Relation：MR21
+Testing Parameter（1-5）：1
+Test Case Path：E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000
+Number of Categories：10
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/0	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/0
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0\\60.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0\\65.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0\\70.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0\\75.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0\\80.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0\\85.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0\\90.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/0\\95.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/1	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/1
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1\\160.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1\\165.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1\\170.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1\\175.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1\\180.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1\\185.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1\\190.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/1\\195.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/2	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/2
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2\\260.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2\\265.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2\\270.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2\\275.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2\\280.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2\\285.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2\\290.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/2\\295.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/3	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/3
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3\\360.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3\\365.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3\\370.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3\\375.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3\\380.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3\\385.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3\\390.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/3\\395.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/4	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/4
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4\\460.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4\\465.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4\\470.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4\\475.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4\\480.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4\\485.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4\\490.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/4\\495.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/5	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/5
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5\\560.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5\\565.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5\\570.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5\\575.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5\\580.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5\\585.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5\\590.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/5\\595.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/6	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/6
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6\\660.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6\\665.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6\\670.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6\\675.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6\\680.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6\\685.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6\\690.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/6\\695.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/7	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/7
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7\\960.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7\\965.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7\\970.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7\\975.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7\\980.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7\\985.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7\\990.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/7\\995.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/8	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/8
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8\\760.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8\\765.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8\\770.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8\\775.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8\\780.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8\\785.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8\\790.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/8\\795.jpg']
+
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+Warning: wandb package cannot be found. The option "--use_wandb" will result in error.
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ./checkpoints                 
+                crop_size: 256                           
+                 dataroot: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9	[default: None]
+             dataset_mode: single                        
+                direction: AtoB                          
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: -1                            	[default: 0]
+                init_gain: 0.02                          
+                init_type: normal                        
+                 input_nc: 3                             
+                  isTrain: False                         	[default: None]
+                load_iter: 0                             	[default: 0]
+                load_size: 256                           
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+               n_layers_D: 3                             
+                     name: summer2winter_yosemite_pretrained	[default: experiment_name]
+                      ndf: 64                            
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                      ngf: 64                            
+               no_dropout: True                          	[default: False]
+                  no_flip: False                         
+                     norm: instance                      
+                 num_test: 50                            
+              num_threads: 4                             
+                output_nc: 3                             
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/9	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                use_wandb: False                         
+                  verbose: False                         
+----------------- End -------------------
+dataset [SingleDataset] was created
+initialize network with normal
+model [TestModel] was created
+loading the model from E:\Program Files\PyCharm Community Edition 2020.1.1\projects\MT tool-java\models\..\./checkpoints\summer2winter_yosemite_pretrained\latest_net_G.pth
+---------- Networks initialized -------------
+[Network G] Total number of parameters : 11.378 M
+-----------------------------------------------
+creating web directory E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/testMR20/1/9
+processing (0000)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9\\860.jpg']
+processing (0005)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9\\865.jpg']
+processing (0010)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9\\870.jpg']
+processing (0015)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9\\875.jpg']
+processing (0020)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9\\880.jpg']
+processing (0025)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9\\885.jpg']
+processing (0030)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9\\890.jpg']
+processing (0035)-th image... ['E:/Program Files/PyCharm Community Edition 2020.1.1/projects/KnnSort/Corel-1000/test/9\\895.jpg']
+
+Verifying Two Output：Test Case 1 PASSED
+Verifying Two Output：Test Case 2 FAILED！！！
+Verifying Two Output：Test Case 3 PASSED
+Verifying Two Output：Test Case 4 FAILED！！！
+Verifying Two Output：Test Case 5 PASSED
+Verifying Two Output：Test Case 6 FAILED！！！
+Verifying Two Output：Test Case 7 FAILED！！！
+Verifying Two Output：Test Case 8 FAILED！！！
+Verifying Two Output：Test Case 9 FAILED！！！
+Verifying Two Output：Test Case 10 FAILED！！！
+Verifying Two Output：Test Case 11 PASSED
+Verifying Two Output：Test Case 12 FAILED！！！
+Verifying Two Output：Test Case 13 FAILED！！！
+Verifying Two Output：Test Case 14 PASSED
+Verifying Two Output：Test Case 15 FAILED！！！
+Verifying Two Output：Test Case 16 PASSED
+Verifying Two Output：Test Case 17 PASSED
+Verifying Two Output：Test Case 18 PASSED
+Verifying Two Output：Test Case 19 PASSED
+Verifying Two Output：Test Case 20 PASSED
+Verifying Two Output：Test Case 21 PASSED
+Verifying Two Output：Test Case 22 PASSED
+Verifying Two Output：Test Case 23 PASSED
+Verifying Two Output：Test Case 24 PASSED
+Verifying Two Output：Test Case 25 PASSED
+Verifying Two Output：Test Case 26 PASSED
+Verifying Two Output：Test Case 27 FAILED！！！
+Verifying Two Output：Test Case 28 FAILED！！！
+Verifying Two Output：Test Case 29 FAILED！！！
+Verifying Two Output：Test Case 30 PASSED
+Verifying Two Output：Test Case 31 PASSED
+Verifying Two Output：Test Case 32 FAILED！！！
+Verifying Two Output：Test Case 33 PASSED
+Verifying Two Output：Test Case 34 PASSED
+Verifying Two Output：Test Case 35 FAILED！！！
+Verifying Two Output：Test Case 36 FAILED！！！
+Verifying Two Output：Test Case 37 FAILED！！！
+Verifying Two Output：Test Case 38 FAILED！！！
+Verifying Two Output：Test Case 39 FAILED！！！
+Verifying Two Output：Test Case 40 PASSED
+Verifying Two Output：Test Case 41 PASSED
+Verifying Two Output：Test Case 42 FAILED！！！
+Verifying Two Output：Test Case 43 PASSED
+Verifying Two Output：Test Case 44 PASSED
+Verifying Two Output：Test Case 45 FAILED！！！
+Verifying Two Output：Test Case 46 FAILED！！！
+Verifying Two Output：Test Case 47 FAILED！！！
+Verifying Two Output：Test Case 48 FAILED！！！
+Verifying Two Output：Test Case 49 FAILED！！！
+Verifying Two Output：Test Case 50 PASSED
+Verifying Two Output：Test Case 51 FAILED！！！
+Verifying Two Output：Test Case 52 PASSED
+Verifying Two Output：Test Case 53 FAILED！！！
+Verifying Two Output：Test Case 54 FAILED！！！
+Verifying Two Output：Test Case 55 FAILED！！！
+Verifying Two Output：Test Case 56 FAILED！！！
+Verifying Two Output：Test Case 57 FAILED！！！
+Verifying Two Output：Test Case 58 PASSED
+Verifying Two Output：Test Case 59 PASSED
+Verifying Two Output：Test Case 60 PASSED
+Verifying Two Output：Test Case 61 PASSED
+Verifying Two Output：Test Case 62 PASSED
+Verifying Two Output：Test Case 63 PASSED
+Verifying Two Output：Test Case 64 FAILED！！！
+Verifying Two Output：Test Case 65 PASSED
+Verifying Two Output：Test Case 66 FAILED！！！
+Verifying Two Output：Test Case 67 FAILED！！！
+Verifying Two Output：Test Case 68 FAILED！！！
+Verifying Two Output：Test Case 69 PASSED
+Verifying Two Output：Test Case 70 PASSED
+Verifying Two Output：Test Case 71 FAILED！！！
+Verifying Two Output：Test Case 72 FAILED！！！
+Verifying Two Output：Test Case 73 FAILED！！！
+Verifying Two Output：Test Case 74 FAILED！！！
+Verifying Two Output：Test Case 75 PASSED
+Verifying Two Output：Test Case 76 FAILED！！！
+Verifying Two Output：Test Case 77 FAILED！！！
+Verifying Two Output：Test Case 78 FAILED！！！
+Verifying Two Output：Test Case 79 PASSED
+Verifying Two Output：Test Case 80 FAILED！！！
+Verifying Two Output：Test Case 81 FAILED！！！
+Verifying Two Output：Test Case 82 FAILED！！！
+Verifying Two Output：Test Case 83 FAILED！！！
+Verifying Two Output：Test Case 84 PASSED
+Verifying Two Output：Test Case 85 PASSED
+Verifying Two Output：Test Case 86 FAILED！！！
+Verifying Two Output：Test Case 87 PASSED
+Verifying Two Output：Test Case 88 FAILED！！！
+Verifying Two Output：Test Case 89 FAILED！！！
+Verifying Two Output：Test Case 90 FAILED！！！
+Verifying Two Output：Test Case 91 FAILED！！！
+Verifying Two Output：Test Case 92 PASSED
+Verifying Two Output：Test Case 93 FAILED！！！
+Verifying Two Output：Test Case 94 PASSED
+Verifying Two Output：Test Case 95 FAILED！！！
+Verifying Two Output：Test Case 96 FAILED！！！
+Verifying Two Output：Test Case 97 FAILED！！！
+Verifying Two Output：Test Case 98 PASSED
+Verifying Two Output：Test Case 99 FAILED！！！
+Verifying Two Output：Test Case 100 FAILED！！！
+Verifying Two Output：Test Case 101 FAILED！！！
+Verifying Two Output：Test Case 102 FAILED！！！
+Verifying Two Output：Test Case 103 FAILED！！！
+Verifying Two Output：Test Case 104 PASSED
+Verifying Two Output：Test Case 105 FAILED！！！
+Verifying Two Output：Test Case 106 FAILED！！！
+Verifying Two Output：Test Case 107 FAILED！！！
+Verifying Two Output：Test Case 108 FAILED！！！
+Verifying Two Output：Test Case 109 PASSED
+Verifying Two Output：Test Case 110 FAILED！！！
+Verifying Two Output：Test Case 111 FAILED！！！
+Verifying Two Output：Test Case 112 PASSED
+Verifying Two Output：Test Case 113 PASSED
+Verifying Two Output：Test Case 114 PASSED
+Verifying Two Output：Test Case 115 FAILED！！！
+Verifying Two Output：Test Case 116 FAILED！！！
+Verifying Two Output：Test Case 117 PASSED
+Verifying Two Output：Test Case 118 FAILED！！！
+Verifying Two Output：Test Case 119 FAILED！！！
+Verifying Two Output：Test Case 120 FAILED！！！
+Verifying Two Output：Test Case 121 PASSED
+Verifying Two Output：Test Case 122 FAILED！！！
+Verifying Two Output：Test Case 123 PASSED
+Verifying Two Output：Test Case 124 PASSED
+Verifying Two Output：Test Case 125 FAILED！！！
+Verifying Two Output：Test Case 126 FAILED！！！
+Verifying Two Output：Test Case 127 FAILED！！！
+Verifying Two Output：Test Case 128 FAILED！！！
+Verifying Two Output：Test Case 129 FAILED！！！
+Verifying Two Output：Test Case 130 PASSED
+Verifying Two Output：Test Case 131 FAILED！！！
+Verifying Two Output：Test Case 132 PASSED
+Verifying Two Output：Test Case 133 FAILED！！！
+Verifying Two Output：Test Case 134 PASSED
+Verifying Two Output：Test Case 135 FAILED！！！
+Verifying Two Output：Test Case 136 FAILED！！！
+Verifying Two Output：Test Case 137 FAILED！！！
+Verifying Two Output：Test Case 138 PASSED
+Verifying Two Output：Test Case 139 FAILED！！！
+Verifying Two Output：Test Case 140 PASSED
+Verifying Two Output：Test Case 141 FAILED！！！
+Verifying Two Output：Test Case 142 PASSED
+Verifying Two Output：Test Case 143 FAILED！！！
+Verifying Two Output：Test Case 144 FAILED！！！
+Verifying Two Output：Test Case 145 FAILED！！！
+Verifying Two Output：Test Case 146 FAILED！！！
+Verifying Two Output：Test Case 147 PASSED
+Verifying Two Output：Test Case 148 FAILED！！！
+Verifying Two Output：Test Case 149 PASSED
+Verifying Two Output：Test Case 150 PASSED
+Verifying Two Output：Test Case 151 PASSED
+Verifying Two Output：Test Case 152 FAILED！！！
+Verifying Two Output：Test Case 153 FAILED！！！
+Verifying Two Output：Test Case 154 PASSED
+Verifying Two Output：Test Case 155 PASSED
+Verifying Two Output：Test Case 156 FAILED！！！
+Verifying Two Output：Test Case 157 FAILED！！！
+Verifying Two Output：Test Case 158 FAILED！！！
+Verifying Two Output：Test Case 159 FAILED！！！
+Verifying Two Output：Test Case 160 PASSED
+Verifying Two Output：Test Case 161 PASSED
+Verifying Two Output：Test Case 162 PASSED
+Verifying Two Output：Test Case 163 PASSED
+Verifying Two Output：Test Case 164 PASSED
+Verifying Two Output：Test Case 165 PASSED
+Verifying Two Output：Test Case 166 PASSED
+Verifying Two Output：Test Case 167 PASSED
+Verifying Two Output：Test Case 168 PASSED
+Verifying Two Output：Test Case 169 PASSED
+Verifying Two Output：Test Case 170 FAILED！！！
+Verifying Two Output：Test Case 171 PASSED
+Verifying Two Output：Test Case 172 PASSED
+Verifying Two Output：Test Case 173 PASSED
+Verifying Two Output：Test Case 174 PASSED
+Verifying Two Output：Test Case 175 PASSED
+Verifying Two Output：Test Case 176 PASSED
+Verifying Two Output：Test Case 177 PASSED
+Verifying Two Output：Test Case 178 PASSED
+Verifying Two Output：Test Case 179 PASSED
+Verifying Two Output：Test Case 180 PASSED
+Verifying Two Output：Test Case 181 PASSED
+Verifying Two Output：Test Case 182 PASSED
+Verifying Two Output：Test Case 183 PASSED
+Verifying Two Output：Test Case 184 PASSED
+Verifying Two Output：Test Case 185 PASSED
+Verifying Two Output：Test Case 186 PASSED
+Verifying Two Output：Test Case 187 PASSED
+Verifying Two Output：Test Case 188 PASSED
+Verifying Two Output：Test Case 189 PASSED
+Verifying Two Output：Test Case 190 PASSED
+Verifying Two Output：Test Case 191 PASSED
+Verifying Two Output：Test Case 192 PASSED
+Verifying Two Output：Test Case 193 PASSED
+Verifying Two Output：Test Case 194 PASSED
+Verifying Two Output：Test Case 195 PASSED
+Verifying Two Output：Test Case 196 PASSED
+Verifying Two Output：Test Case 197 PASSED
+Verifying Two Output：Test Case 198 PASSED
+Verifying Two Output：Test Case 199 PASSED
+Verifying Two Output：Test Case 200 PASSED
+Verifying Two Output：Test Case 201 PASSED
+Verifying Two Output：Test Case 202 FAILED！！！
+Verifying Two Output：Test Case 203 FAILED！！！
+Verifying Two Output：Test Case 204 PASSED
+Verifying Two Output：Test Case 205 FAILED！！！
+Verifying Two Output：Test Case 206 FAILED！！！
+Verifying Two Output：Test Case 207 FAILED！！！
+Verifying Two Output：Test Case 208 FAILED！！！
+Verifying Two Output：Test Case 209 FAILED！！！
+Verifying Two Output：Test Case 210 FAILED！！！
+Verifying Two Output：Test Case 211 FAILED！！！
+Verifying Two Output：Test Case 212 FAILED！！！
+Verifying Two Output：Test Case 213 FAILED！！！
+Verifying Two Output：Test Case 214 FAILED！！！
+Verifying Two Output：Test Case 215 FAILED！！！
+Verifying Two Output：Test Case 216 PASSED
+Verifying Two Output：Test Case 217 FAILED！！！
+Verifying Two Output：Test Case 218 PASSED
+Verifying Two Output：Test Case 219 FAILED！！！
+Verifying Two Output：Test Case 220 FAILED！！！
+Verifying Two Output：Test Case 221 FAILED！！！
+Verifying Two Output：Test Case 222 FAILED！！！
+Verifying Two Output：Test Case 223 FAILED！！！
+Verifying Two Output：Test Case 224 PASSED
+Verifying Two Output：Test Case 225 PASSED
+Verifying Two Output：Test Case 226 PASSED
+Verifying Two Output：Test Case 227 FAILED！！！
+Verifying Two Output：Test Case 228 FAILED！！！
+Verifying Two Output：Test Case 229 FAILED！！！
+Verifying Two Output：Test Case 230 FAILED！！！
+Verifying Two Output：Test Case 231 FAILED！！！
+Verifying Two Output：Test Case 232 PASSED
+Verifying Two Output：Test Case 233 FAILED！！！
+Verifying Two Output：Test Case 234 PASSED
+Verifying Two Output：Test Case 235 FAILED！！！
+Verifying Two Output：Test Case 236 FAILED！！！
+Verifying Two Output：Test Case 237 FAILED！！！
+Verifying Two Output：Test Case 238 FAILED！！！
+Verifying Two Output：Test Case 239 FAILED！！！
+Verifying Two Output：Test Case 240 FAILED！！！
+Verifying Two Output：Test Case 241 PASSED
+Verifying Two Output：Test Case 242 FAILED！！！
+Verifying Two Output：Test Case 243 FAILED！！！
+Verifying Two Output：Test Case 244 FAILED！！！
+Verifying Two Output：Test Case 245 PASSED
+Verifying Two Output：Test Case 246 FAILED！！！
+Verifying Two Output：Test Case 247 FAILED！！！
+Verifying Two Output：Test Case 248 FAILED！！！
+Verifying Two Output：Test Case 249 FAILED！！！
+Verifying Two Output：Test Case 250 FAILED！！！
+Verifying Two Output：Test Case 251 FAILED！！！
+Verifying Two Output：Test Case 252 FAILED！！！
+Verifying Two Output：Test Case 253 FAILED！！！
+Verifying Two Output：Test Case 254 FAILED！！！
+Verifying Two Output：Test Case 255 FAILED！！！
+Verifying Two Output：Test Case 256 FAILED！！！
+Verifying Two Output：Test Case 257 FAILED！！！
+Verifying Two Output：Test Case 258 FAILED！！！
+Verifying Two Output：Test Case 259 FAILED！！！
+Verifying Two Output：Test Case 260 FAILED！！！
+Verifying Two Output：Test Case 261 FAILED！！！
+Verifying Two Output：Test Case 262 FAILED！！！
+Verifying Two Output：Test Case 263 FAILED！！！
+Verifying Two Output：Test Case 264 FAILED！！！
+Verifying Two Output：Test Case 265 PASSED
+Verifying Two Output：Test Case 266 FAILED！！！
+Verifying Two Output：Test Case 267 PASSED
+Verifying Two Output：Test Case 268 FAILED！！！
+Verifying Two Output：Test Case 269 PASSED
+Verifying Two Output：Test Case 270 PASSED
+Verifying Two Output：Test Case 271 FAILED！！！
+Verifying Two Output：Test Case 272 FAILED！！！
+Verifying Two Output：Test Case 273 FAILED！！！
+Verifying Two Output：Test Case 274 FAILED！！！
+Verifying Two Output：Test Case 275 FAILED！！！
+Verifying Two Output：Test Case 276 FAILED！！！
+Verifying Two Output：Test Case 277 FAILED！！！
+Verifying Two Output：Test Case 278 PASSED
+Verifying Two Output：Test Case 279 FAILED！！！
+Verifying Two Output：Test Case 280 FAILED！！！
+Verifying Two Output：Test Case 281 PASSED
+Verifying Two Output：Test Case 282 FAILED！！！
+Verifying Two Output：Test Case 283 FAILED！！！
+Verifying Two Output：Test Case 284 FAILED！！！
+Verifying Two Output：Test Case 285 FAILED！！！
+Verifying Two Output：Test Case 286 PASSED
+Verifying Two Output：Test Case 287 FAILED！！！
+Verifying Two Output：Test Case 288 FAILED！！！
+Verifying Two Output：Test Case 289 FAILED！！！
+Verifying Two Output：Test Case 290 FAILED！！！
+Verifying Two Output：Test Case 291 FAILED！！！
+Verifying Two Output：Test Case 292 FAILED！！！
+Verifying Two Output：Test Case 293 PASSED
+Verifying Two Output：Test Case 294 FAILED！！！
+Verifying Two Output：Test Case 295 FAILED！！！
+Verifying Two Output：Test Case 296 FAILED！！！
+Verifying Two Output：Test Case 297 FAILED！！！
+Verifying Two Output：Test Case 298 FAILED！！！
+Verifying Two Output：Test Case 299 FAILED！！！
+Verifying Two Output：Test Case 300 FAILED！！！
+Verifying Two Output：Test Case 301 FAILED！！！
+Verifying Two Output：Test Case 302 PASSED
+Verifying Two Output：Test Case 303 FAILED！！！
+Verifying Two Output：Test Case 304 FAILED！！！
+Verifying Two Output：Test Case 305 FAILED！！！
+Verifying Two Output：Test Case 306 FAILED！！！
+Verifying Two Output：Test Case 307 FAILED！！！
+Verifying Two Output：Test Case 308 FAILED！！！
+Verifying Two Output：Test Case 309 PASSED
+Verifying Two Output：Test Case 310 PASSED
+Verifying Two Output：Test Case 311 FAILED！！！
+Verifying Two Output：Test Case 312 FAILED！！！
+Verifying Two Output：Test Case 313 FAILED！！！
+Verifying Two Output：Test Case 314 FAILED！！！
+Verifying Two Output：Test Case 315 FAILED！！！
+Verifying Two Output：Test Case 316 FAILED！！！
+Verifying Two Output：Test Case 317 FAILED！！！
+Verifying Two Output：Test Case 318 PASSED
+Verifying Two Output：Test Case 319 FAILED！！！
+Verifying Two Output：Test Case 320 FAILED！！！
+Verifying Two Output：Test Case 321 FAILED！！！
+Verifying Two Output：Test Case 322 FAILED！！！
+Verifying Two Output：Test Case 323 PASSED
+Verifying Two Output：Test Case 324 FAILED！！！
+Verifying Two Output：Test Case 325 FAILED！！！
+Verifying Two Output：Test Case 326 FAILED！！！
+Verifying Two Output：Test Case 327 PASSED
+Verifying Two Output：Test Case 328 PASSED
+Verifying Two Output：Test Case 329 FAILED！！！
+Verifying Two Output：Test Case 330 FAILED！！！
+Verifying Two Output：Test Case 331 PASSED
+Verifying Two Output：Test Case 332 FAILED！！！
+Verifying Two Output：Test Case 333 FAILED！！！
+Verifying Two Output：Test Case 334 PASSED
+Verifying Two Output：Test Case 335 FAILED！！！
+Verifying Two Output：Test Case 336 FAILED！！！
+Verifying Two Output：Test Case 337 FAILED！！！
+Verifying Two Output：Test Case 338 FAILED！！！
+Verifying Two Output：Test Case 339 FAILED！！！
+Verifying Two Output：Test Case 340 FAILED！！！
+Verifying Two Output：Test Case 341 PASSED
+Verifying Two Output：Test Case 342 FAILED！！！
+Verifying Two Output：Test Case 343 FAILED！！！
+Verifying Two Output：Test Case 344 PASSED
+Verifying Two Output：Test Case 345 FAILED！！！
+Verifying Two Output：Test Case 346 FAILED！！！
+Verifying Two Output：Test Case 347 FAILED！！！
+Verifying Two Output：Test Case 348 PASSED
+Verifying Two Output：Test Case 349 FAILED！！！
+Verifying Two Output：Test Case 350 FAILED！！！
+Verifying Two Output：Test Case 351 FAILED！！！
+Verifying Two Output：Test Case 352 PASSED
+Verifying Two Output：Test Case 353 FAILED！！！
+Verifying Two Output：Test Case 354 FAILED！！！
+Verifying Two Output：Test Case 355 FAILED！！！
+Verifying Two Output：Test Case 356 FAILED！！！
+Verifying Two Output：Test Case 357 FAILED！！！
+Verifying Two Output：Test Case 358 FAILED！！！
+Verifying Two Output：Test Case 359 FAILED！！！
+Verifying Two Output：Test Case 360 PASSED
+Verifying Two Output：Test Case 361 FAILED！！！
+Verifying Two Output：Test Case 362 FAILED！！！
+Verifying Two Output：Test Case 363 FAILED！！！
+Verifying Two Output：Test Case 364 FAILED！！！
+Verifying Two Output：Test Case 365 FAILED！！！
+Verifying Two Output：Test Case 366 PASSED
+Verifying Two Output：Test Case 367 FAILED！！！
+Verifying Two Output：Test Case 368 PASSED
+Verifying Two Output：Test Case 369 FAILED！！！
+Verifying Two Output：Test Case 370 FAILED！！！
+Verifying Two Output：Test Case 371 PASSED
+Verifying Two Output：Test Case 372 FAILED！！！
+Verifying Two Output：Test Case 373 PASSED
+Verifying Two Output：Test Case 374 PASSED
+Verifying Two Output：Test Case 375 FAILED！！！
+Verifying Two Output：Test Case 376 FAILED！！！
+Verifying Two Output：Test Case 377 FAILED！！！
+Verifying Two Output：Test Case 378 PASSED
+Verifying Two Output：Test Case 379 FAILED！！！
+Verifying Two Output：Test Case 380 PASSED
+Verifying Two Output：Test Case 381 FAILED！！！
+Verifying Two Output：Test Case 382 PASSED
+Verifying Two Output：Test Case 383 PASSED
+Verifying Two Output：Test Case 384 FAILED！！！
+Verifying Two Output：Test Case 385 FAILED！！！
+Verifying Two Output：Test Case 386 PASSED
+Verifying Two Output：Test Case 387 PASSED
+Verifying Two Output：Test Case 388 PASSED
+Verifying Two Output：Test Case 389 FAILED！！！
+Verifying Two Output：Test Case 390 PASSED
+Verifying Two Output：Test Case 391 FAILED！！！
+Verifying Two Output：Test Case 392 PASSED
+Verifying Two Output：Test Case 393 PASSED
+Verifying Two Output：Test Case 394 FAILED！！！
+Verifying Two Output：Test Case 395 FAILED！！！
+Verifying Two Output：Test Case 396 PASSED
+Verifying Two Output：Test Case 397 FAILED！！！
+Verifying Two Output：Test Case 398 FAILED！！！
+Verifying Two Output：Test Case 399 FAILED！！！
+Verifying Two Output：Test Case 400 PASSED
+
+Test Result
+Number of Test Case：400
+Error Number of Test Case：246
+Error Rate：0.615

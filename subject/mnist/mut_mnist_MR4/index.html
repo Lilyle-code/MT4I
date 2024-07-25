@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MutPy mutation report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+    
+</head>
+<body>
+    <div class="container">
+        
+<div class="page-header">
+    <h1>MutPy mutation report</h1>
+    <p><span class="glyphicon glyphicon-time"></span> 18.05.2022 10:18</p>
+</div>
+<h4>Target</h4>
+<ul>
+    
+    <li><code>mnisttest_mutpy</code></li>
+    
+</ul>
+<h4>Tests [1]</h4>
+<ul>
+    
+    <li><code>test_mutpy_mnist_MR4</code> [2.367 s]</li>
+    
+</ul>
+<h4>Result summary</h4>
+<ul>
+    <li><strong><span class="glyphicon glyphicon-signal"></span> Score</strong> - 66.2%</li>
+    <li><strong><span class="glyphicon glyphicon-time"></span> Time</strong> - 154.9 s</li>
+    
+</ul>
+<h4>Mutants [85]</h4>
+<ul>
+    <li><span class="label label-success">killed</span> - 49</li>
+    <li><span class="label label-danger">survived</span> - 25</li>
+    <li><span class="label label-warning">incompetent</span> - 11</li>
+    <li><span class="label label-info">timeout</span> - 0</li>
+</ul>
+<div class="progress">
+    <div title="killed - 49" class="progress-bar progress-bar-success" style="width: 57.64705882352941%">
+        57.6%
+    </div>
+    <div title="survived - 25" class="progress-bar progress-bar-danger" style="width: 29.41176470588235%">
+        29.4%
+    </div>
+    <div title="incompetent - 11" class="progress-bar progress-bar-warning" style="width: 12.941176470588236%">
+        12.9%
+    </div>
+    <div title="timeout - 0" class="progress-bar progress-bar-info" style="width: 0.0%">
+        0.0%
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Module</th>
+            <th>Operator</th>
+            <th>Tests run</th>
+            <th>Duration</th>
+            <th>Result</th>
+            <th></th>
+        </tr>
+    </thead>
+    
+    <tr>
+        <td><a href="1.html">1</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOD [44]</td>
+        <td>1</td>
+        <td>0.758 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/1.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="2.html">2</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [18]</td>
+        <td>-</td>
+        <td>0.46 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/2.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="3.html">3</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [18]</td>
+        <td>-</td>
+        <td>0.527 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/3.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="4.html">4</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [18]</td>
+        <td>-</td>
+        <td>0.47 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/4.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="5.html">5</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [20]</td>
+        <td>-</td>
+        <td>0.52 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/5.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="6.html">6</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [44]</td>
+        <td>1</td>
+        <td>0.738 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/6.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="7.html">7</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [66]</td>
+        <td>-</td>
+        <td>1.321 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/7.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="8.html">8</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [66]</td>
+        <td>1</td>
+        <td>2.353 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/8.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="9.html">9</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [66]</td>
+        <td>1</td>
+        <td>2.278 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/9.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="10.html">10</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>AOR [66]</td>
+        <td>1</td>
+        <td>2.373 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/10.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="11.html">11</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>COI [48]</td>
+        <td>-</td>
+        <td>1.208 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/11.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="12.html">12</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.144 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/12.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="13.html">13</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.211 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/13.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="14.html">14</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.258 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/14.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="15.html">15</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.299 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/15.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="16.html">16</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.293 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/16.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="17.html">17</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.365 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/17.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="18.html">18</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.633 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/18.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="19.html">19</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.454 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/19.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="20.html">20</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.441 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/20.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="21.html">21</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.327 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/21.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="22.html">22</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.461 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/22.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="23.html">23</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.4 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/23.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="24.html">24</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.521 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/24.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="25.html">25</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.529 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/25.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="26.html">26</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.538 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/26.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="27.html">27</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.483 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/27.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="28.html">28</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.544 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/28.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="29.html">29</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.432 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/29.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="30.html">30</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.297 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/30.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="31.html">31</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [14]</td>
+        <td>1</td>
+        <td>2.323 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/31.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="32.html">32</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [18]</td>
+        <td>1</td>
+        <td>0.47 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/32.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="33.html">33</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [18]</td>
+        <td>1</td>
+        <td>0.561 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/33.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="34.html">34</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [18]</td>
+        <td>1</td>
+        <td>0.594 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/34.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="35.html">35</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [18]</td>
+        <td>1</td>
+        <td>0.64 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/35.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="36.html">36</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [20]</td>
+        <td>1</td>
+        <td>0.47 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/36.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="37.html">37</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [20]</td>
+        <td>1</td>
+        <td>0.63 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/37.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="38.html">38</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.376 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/38.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="39.html">39</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.451 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/39.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="40.html">40</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.53 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/40.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="41.html">41</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.557 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/41.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="42.html">42</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.658 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/42.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="43.html">43</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.614 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/43.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="44.html">44</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.38 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/44.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="45.html">45</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.5 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/45.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="46.html">46</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.552 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/46.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="47.html">47</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [22]</td>
+        <td>1</td>
+        <td>2.515 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/47.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="48.html">48</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [23]</td>
+        <td>1</td>
+        <td>2.51 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/48.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="49.html">49</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [28]</td>
+        <td>1</td>
+        <td>0.51 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/49.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="50.html">50</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [28]</td>
+        <td>1</td>
+        <td>2.56 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/50.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="51.html">51</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [30]</td>
+        <td>1</td>
+        <td>0.73 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/51.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="52.html">52</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [30]</td>
+        <td>1</td>
+        <td>0.912 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/52.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="53.html">53</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [40]</td>
+        <td>1</td>
+        <td>0.818 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/53.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="54.html">54</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [41]</td>
+        <td>1</td>
+        <td>0.739 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/54.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="55.html">55</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [44]</td>
+        <td>1</td>
+        <td>2.48 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/55.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="56.html">56</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [44]</td>
+        <td>1</td>
+        <td>0.72 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/56.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="57.html">57</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [44]</td>
+        <td>1</td>
+        <td>0.948 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/57.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="58.html">58</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [44]</td>
+        <td>-</td>
+        <td>1.24 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/58.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="59.html">59</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [48]</td>
+        <td>1</td>
+        <td>2.42 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/59.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="60.html">60</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [49]</td>
+        <td>1</td>
+        <td>0.8 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/60.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="61.html">61</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [49]</td>
+        <td>1</td>
+        <td>0.918 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/61.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="62.html">62</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [50]</td>
+        <td>1</td>
+        <td>0.886 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/62.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="63.html">63</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [50]</td>
+        <td>1</td>
+        <td>0.72 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/63.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="64.html">64</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [51]</td>
+        <td>1</td>
+        <td>0.94 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/64.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="65.html">65</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [51]</td>
+        <td>1</td>
+        <td>0.826 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/65.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="66.html">66</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [53]</td>
+        <td>1</td>
+        <td>0.72 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/66.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="67.html">67</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [53]</td>
+        <td>1</td>
+        <td>0.918 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/67.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="68.html">68</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [54]</td>
+        <td>1</td>
+        <td>0.848 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/68.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="69.html">69</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [54]</td>
+        <td>1</td>
+        <td>0.81 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/69.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="70.html">70</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [55]</td>
+        <td>1</td>
+        <td>0.925 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/70.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="71.html">71</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [55]</td>
+        <td>1</td>
+        <td>0.83 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/71.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="72.html">72</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [57]</td>
+        <td>1</td>
+        <td>0.846 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/72.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="73.html">73</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [57]</td>
+        <td>1</td>
+        <td>0.758 s</td>
+        <td><span class="label label-success">killed</span></td>
+        <td><a href="mutants/73.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="74.html">74</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [64]</td>
+        <td>1</td>
+        <td>2.51 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/74.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="75.html">75</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [64]</td>
+        <td>1</td>
+        <td>2.486 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/75.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="76.html">76</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [65]</td>
+        <td>1</td>
+        <td>2.702 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/76.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="77.html">77</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [66]</td>
+        <td>-</td>
+        <td>1.575 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/77.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="78.html">78</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [66]</td>
+        <td>-</td>
+        <td>1.42 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/78.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="79.html">79</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [66]</td>
+        <td>1</td>
+        <td>2.581 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/79.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="80.html">80</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [69]</td>
+        <td>1</td>
+        <td>2.835 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/80.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="81.html">81</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>CRP [69]</td>
+        <td>1</td>
+        <td>2.648 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/81.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="82.html">82</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>LCR [48]</td>
+        <td>1</td>
+        <td>2.665 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/82.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="83.html">83</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>ROR [48]</td>
+        <td>-</td>
+        <td>1.283 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/83.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="84.html">84</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>ROR [48]</td>
+        <td>-</td>
+        <td>1.31 s</td>
+        <td><span class="label label-warning">incompetent</span></td>
+        <td><a href="mutants/84.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+    <tr>
+        <td><a href="85.html">85</a></td>
+        <td><code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></td>
+        <td>ROR [48]</td>
+        <td>1</td>
+        <td>2.886 s</td>
+        <td><span class="label label-danger">survived</span></td>
+        <td><a href="mutants/85.html"><span class="glyphicon glyphicon-arrow-right"></span></a></td>
+    </tr>
+    
+</table>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MutPy mutation report - mutation #48</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    
+<link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet" type="text/css" />
+<link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
+<script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js" type="text/javascript"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.all();
+    window.setTimeout(function () {
+        
+        $('.line.number23').attr('title', 'CRP');
+        
+    }, 0);
+</script>
+
+</head>
+<body>
+    <div class="container">
+        
+<div class="page-header">
+    <h1>Mutation #48</h1>
+</div>
+<h3>Details</h3>
+<ul>
+    <li>module - <code><module 'mnisttest_mutpy' from 'E:\\Program Files\\PyCharm Community Edition 2020.1.1\\projects\\CNN-image_classification-master\\cnn\\mnisttest_mutpy.py'></code></li>
+    <li><span class="label label-danger">survived</span></li>
+    
+    <li>duration - 2.51 s</li>
+    
+    
+    <li>tests run - 1</li>
+    
+</ul>
+
+<h3>Mutations</h3>
+<ul>
+    
+    <li>CRP - line 23</li>
+    
+</ul>
+<h3>Mutant</h3>
+<pre class="brush: python; first-line: 1; highlight: [23]; toolbar: false;">import glob
+
+import numpy as np
+import tensorflow as tf
+from PIL import Image
+
+
+
+def testAPI(teststr, trainstr, str1):
+    saver = tf.train.import_meta_graph(str1)
+    graph = tf.get_default_graph()
+    path_ = teststr
+    
+    classes = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    all = []
+    
+    for (index, name) in enumerate(classes):
+        path = ((path_ + '/') + name) + '/'
+        
+        path_all = glob.glob(path + '*.jpg')
+        
+        label = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        label[index] = 2
+        
+        for img_path in path_all:
+            img = Image.open(img_path)
+            
+            img = img.convert('L')
+            
+            img = img.resize((28, 28))
+            
+            
+            
+            
+            data_i = [np.array(img).flatten().tolist(), label]
+            all.append(data_i)
+    
+    
+    all = np.array(all)
+    img = all[:,0]
+    label = all[:,1]
+    
+    img1 = img.tolist()
+    img1 = np.reshape(img1, [-1, 28, 28, 1])
+    label1 = label.tolist()
+    
+    
+    if (len(img1) == len(label1) and len(img1) > 0):
+        x = graph.get_tensor_by_name('x:0')
+        y = graph.get_tensor_by_name('y:0')
+        keep_prob = graph.get_tensor_by_name('keep_prob:0')
+        
+        accuracy = graph.get_tensor_by_name('accuracy:0')
+        pred_pos = graph.get_tensor_by_name('pred_pos:0')
+        is_training = graph.get_tensor_by_name('is_training:0')
+        with tf.Session() as sess:
+            saver.restore(sess, tf.train.latest_checkpoint('E:/final1/'))
+            """if len(img1) == 1:
+                rs = sess.run(pred_pos, feed_dict={x: img1, y: label1, keep_prob: 1, is_training:False})
+                print(label1)
+                print('result : %d' % (rs[0]+1))
+            else:
+                rs = sess.run(accuracy, feed_dict={x: img1, y: label1, keep_prob: 1, is_training:False})
+                print('data(%d) : ac is %f'%(len(img1),rs*100))"""
+            (acc, pred) = sess.run([accuracy, pred_pos], feed_dict={x: img1, y: label1, keep_prob: 1, is_training: False})
+            print('data(%d) : ac is %f' % (len(img1), acc * 100))
+            return pred
+    else:
+        print('wrong format you input')</pre>
+
+    </div>
+</body>
+</html>
